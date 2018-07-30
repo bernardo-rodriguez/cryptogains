@@ -1,0 +1,42 @@
+{
+  "name": "cryptogains",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-jest": "^23.4.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "fs-extra": "^6.0.1",
+    "jest": "^23.4.0",
+    "react-test-renderer": "^16.4.1",
+    "replace-in-file": "^3.4.0"
+  },
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator \"iPhone X\"",
+    "rename": "node ./bin/rename.js",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "fbjs": "^0.8.17",
+    "react": "^16.3.2",
+    "react-native": "^0.55.3",
+    "react-native-form": "^2.1.2",
+    "react-native-firebase": "^4.3.6",
+    "react-native-phone-input": "^0.2.1",
+    "react-native-country-picker-modal": "^0.6.2",
+    "react-native-scrollable-tab-view": "^0.8.0",
+    "react-native-typewriter": "^0.5.3",
+    "react-native-ui-kitten": "^3.0.1",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.9.3"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
