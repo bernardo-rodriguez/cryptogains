@@ -2,9 +2,11 @@
 - React Native mobile app
 
 ## Installation
+- cd cryptogains
 - npm install
 - cd ios
 - pod install
+- cd ..
 - npm run ios
 - npm run start
 
