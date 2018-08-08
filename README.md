@@ -8,7 +8,6 @@
 - pod install
 - cd ..
 - npm run ios
-- npm run start
 
 ### Run on your own iPhone
 - open ios project in xcode
